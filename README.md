@@ -29,7 +29,14 @@ Properties:
 * option
 * value
 * memo
-
+Options:
+* hair
+* face
+* eyes
+* ears
+* shirt
+* pants
+* shoes
 ```
 cleos push action accountName update '["targetAccount", "hair", 1, "Updated Hair"]' -p targetAccount
 ```
