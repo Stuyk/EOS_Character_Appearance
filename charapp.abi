@@ -1,0 +1,119 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Wed Oct  3 15:25:53 2018",
+    "version": "eosio::abi/1.0",
+    "structs": [
+        {
+            "name": "characterapp",
+            "base": "",
+            "fields": [
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "hair",
+                    "type": "uint64"
+                },
+                {
+                    "name": "face",
+                    "type": "uint64"
+                },
+                {
+                    "name": "eyes",
+                    "type": "uint64"
+                },
+                {
+                    "name": "ears",
+                    "type": "uint64"
+                },
+                {
+                    "name": "shirt",
+                    "type": "uint64"
+                },
+                {
+                    "name": "pants",
+                    "type": "uint64"
+                },
+                {
+                    "name": "shoes",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "cleartable",
+            "base": "",
+            "fields": [
+                {
+                    "name": "memo",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "create",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "memo",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "update",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "option",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
+                    "type": "uint64"
+                },
+                {
+                    "name": "memo",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "cleartable",
+            "type": "cleartable",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "create",
+            "type": "create",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "update",
+            "type": "update",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "characterapp",
+            "type": "characterapp",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "abi_extensions": []
+}
