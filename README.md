@@ -14,6 +14,7 @@ cleos get table accountName accountName characterapp
 #### Setup an account for this contract:
 Action:
 * create
+
 Properties:
 * account
 * memo
@@ -24,6 +25,7 @@ cleos push action accountName create '["accountName", "Created Account"]' -p acc
 #### Modify an account for this contract:
 Action:
 * update
+
 Properties:
 * account
 * option
@@ -45,6 +47,7 @@ cleos push action accountName update '["targetAccount", "hair", 1, "Updated Hair
 ### Clear the table completely:
 Action:
 * cleartable
+
 Properties:
 * memo
 ```
