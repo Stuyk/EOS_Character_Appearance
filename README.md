@@ -29,6 +29,7 @@ Properties:
 * option
 * value
 * memo
+
 Options:
 * hair
 * face
